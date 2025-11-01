@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai Charan Goud Pabbathi - Student E-Portfolio</title>
+  <meta name="description" content="Portfolio of Sai Charan Goud Pabbathi | B.Tech CSE (Cyber Security) | Projects, Skills, Achievements, Internships, and Contact.">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --accent: #00bcd4;
+      --text: #e6edf3;
+      --highlight: #2ea043;
+      --font: 'Segoe UI', Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(145deg, #0d1117, #161b22);
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 20px #0006;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.3rem;
+      color: var(--accent);
+    }
+
+    header p {
+      margin: 0.3rem 0;
+      color: #ccc;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #11161c;
+      padding: 0.8rem;
+      box-shadow: 0 2px 8px #0004;
+    }
+
+    nav button {
+      background: none;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      margin: 0.4rem;
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.3s;
+    }
+
+    nav button:hover, nav button.active {
+      background-color: var(--accent);
+      color: var(--bg);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      display: none;
+      background-color: var(--surface);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 0 15px #0004;
+      margin-bottom: 2rem;
+    }
+
+    section.active {
+      display: block;
+      animation: fadeIn 0.6s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: var(--highlight);
+      margin-top: 0;
+    }
+
+    ul { margin-left: 1.2rem; }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #11161c;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    hr { border: 0; border-top: 1px solid #333; margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SAI CHARAN GOUD PABBATHI</h1>
+    <p>B.Tech CSE (Cyber Security) | Geethanjali College of Engineering and Technology</p>
+    <p><a href="mailto:22r11a6233@gcet.edu.in">22r11a6233@gcet.edu.in</a> | <a href="https://www.linkedin.com/in/pabbathi-sai-charan-goud-168308295">LinkedIn</a> | <a href="https://github.com/saicharan0690">GitHub</a></p>
+  </header>
+
+  <nav>
+    <button class="active" onclick="showSection('personal', this)">Personal Info</button>
+    <button onclick="showSection('skills', this)">Skills</button>
+    <button onclick="showSection('projects', this)">Projects</button>
+    <button onclick="showSection('internships', this)">Internships</button>
+    <button onclick="showSection('achievements', this)">Achievements</button>
+    <button onclick="showSection('activities', this)">Activities</button>
+    <button onclick="showSection('strengths', this)">Strengths</button>
+    <button onclick="showSection('hobbies', this)">Hobbies</button>
+    <button onclick="showSection('declaration', this)">Declaration</button>
+  </nav>
+
+  <main>
+    <section id="personal" class="active">
+      <h2>Personal Information</h2>
+      <p><strong>Name:</strong> Sai Charan Goud Pabbathi</p>
+      <p><strong>Enrollment No:</strong> 22R11A6233</p>
+      <p><strong>Course:</strong> B.Tech in Computer Science and Engineering (Cyber Security)</p>
+      <p><strong>College:</strong> Geethanjali College of Engineering and Technology, Hyderabad</p>
+      <p><strong>Email:</strong> 22r11a6233@gcet.edu.in</p>
+      <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/pabbathi-sai-charan-goud-168308295" target="_blank">View Profile</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/saicharan0690" target="_blank">saicharan0690</a></p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> C, Java, HTML, CSS, JavaScript (Basics), Python (Basics), Bash Scripting, PowerShell</li>
+        <li><strong>Tools & Technologies:</strong> MySQL, Wireshark, Burp Suite, Nmap, John the Ripper, Aircrack-ng, Palo Alto Networks, Cisco Networking Essentials</li>
+        <li><strong>Coursework:</strong> DSA, OOP, DBMS, OS, Networks, Cryptography, Web Technologies, AI, ML, Deep Learning</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <h3>♻️ AquaPlast – AI-Powered Microplastic Analysis (Major Project)</h3>
+      <ul>
+        <li>Developed an AI-driven IoT prototype for detecting and classifying microplastics using sensor data and computer vision.</li>
+        <li><strong>Role:</strong> Full-Stack Developer & IoT Integrator</li>
+        <li><strong>Tech:</strong> Python, Raspberry Pi, OpenCV, Flask, IoT Sensors</li>
+      </ul>
+      <hr>
+      <h3>🧬 DNA-Based Malware Detector (Mini Project)</h3>
+      <ul>
+        <li>Designed a malware detection system inspired by DNA encoding of opcode and API-call sequences, applying ML models (SVM, CNN) for classification.</li>
+        <li><strong>Tech:</strong> Python, scikit-learn, TensorFlow, Flask</li>
+      </ul>
+      <hr>
+      <h3>🛡️ DoS Attack Prediction System</h3>
+      <ul>
+        <li>Built a machine learning–based model to predict and mitigate DoS attacks using traffic pattern analysis and real-time monitoring.</li>
+        <li><strong>Role:</strong> Cybersecurity Developer</li>
+        <li><strong>Tech:</strong> Python, Scikit-learn, Tkinter, Network Traffic Datasets</li>
+      </ul>
+    </section>
+
+    <section id="internships">
+      <h2>Internships</h2>
+      <p><strong>Software Developer Intern – CodeNexa Solutions (May–July 2023)</strong></p>
+      <ul>
+        <li>Developed reusable React components and integrated REST APIs.</li>
+        <li>Improved UI responsiveness for mobile devices.</li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Certified in Basics of Python Programming</li>
+        <li>CISCO Cybersecurity Essentials and Networking Fundamentals certified</li>
+        <li>Oracle Certificate in Java Programming</li>
+        <li>108 hours of AI/ML training with Cantilever Labs</li>
+        <li>2nd Place in Supraja Hackathon (Internship Offer)</li>
+        <li>5th Place in Smart India Hackathon – Stage 1</li>
+      </ul>
+    </section>
+
+    <section id="activities">
+      <h2>Co-curricular & Extra-Curricular Activities</h2>
+      <h3>🎓 Co-Curricular</h3>
+      <ul>
+        <li>Participated in workshops on Ethical Hacking and AI Integration</li>
+        <li>Volunteered as Tech Organizer in Alphamatica Event</li>
+        <li>Helped peers in using cybersecurity tools (Wireshark, Burp Suite)</li>
+      </ul>
+      <h3>🎯 Extra-Curricular</h3>
+      <ul>
+        <li>Active participant in chess, gaming tournaments, and hackathons</li>
+        <li>Photography, video editing & content creation</li>
+        <li>Led college recycling awareness drive (AquaPlast)</li>
+      </ul>
+    </section>
+
+    <section id="strengths">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Quick learner and self-motivated</li>
+        <li>Excellent analytical and problem-solving skills</li>
+        <li>Strong interest in cybersecurity and optimization</li>
+        <li>Teamwork and effective communication</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies & Interests</h2>
+      <ul>
+        <li>Building AI and cybersecurity projects</li>
+        <li>Exploring new technologies and gaming</li>
+        <li>Photography, video editing & content creation</li>
+        <li>Participating in hackathons and innovation events</li>
+      </ul>
+    </section>
+
+    <section id="declaration">
+      <h2>Declaration</h2>
+      <p>I hereby declare that the above information is true to the best of my knowledge and belief.</p>
+      <p><strong>Place:</strong> Hyderabad<br>
+      <strong>Date:</strong> 01 November 2025<br>
+      <strong>Signature:</strong> Sai Charan Goud Pabbathi</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Sai Charan Goud Pabbathi | Geethanjali College of Engineering and Technology
+  </footer>
+
+  <script>
+    function showSection(id, btn) {
+      const sections = document.querySelectorAll("main section");
+      const buttons = document.querySelectorAll("nav button");
+      sections.forEach(sec => sec.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+      buttons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+    }
+  </script>
+</body>
+</html>
